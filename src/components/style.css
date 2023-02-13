@@ -1,0 +1,23 @@
+#dnd {
+  min-height: 300px;
+  border: 1px dashed gray;
+  transition: all 0.4s ease;
+}
+
+#dnd.active {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#dnd.droppable {
+  border: 1px solid green;
+}
+
+#dnd.invalid {
+  border: 1px solid red;
+  background-color: red;
+}
+
+input {
+  display: none;
+}
